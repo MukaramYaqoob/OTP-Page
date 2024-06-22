@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+     font-family: "Roboto", sans-serif;
+}
+.container{
+     border: 2px solid lightgray;
+     text-align: center;
+    
+     border-radius: 10px;
+    
+     padding-top: 70px;
+     padding-bottom: 120px;
+     margin: 120px  530px  ;
+     
+     padding-bottom: 20px;
+}
+.container:hover{
+     border: 2px solid #0aa2fa;
+}
+
+input{
+     padding: 2px;
+     width: 34px;
+     height: 34px;
+     color:black;
+     font-size: x-large;
+     border: 1px solid #e4e9ed;
+     border-radius: 2px;
+     text-decoration: none;
+     outline: none;
+     padding-left: 8px;
+     margin-left: 5px;
+     text-align: center;
+}
+input:hover{
+     background-color: #ebedf0;
+    
+}
+button{
+     width: 300px;
+     height: 30px;
+     background-color: #0aa2fa;
+     border-radius: 4px;
+     color: #fff;
+font-size: 15px;
+     border: 1px solid #0aa2fa;
+}
+a{
+     text-decoration: none;
+     color: #1496fa;
+}
+/* ########################## sign up page ################ */
+.headi{
+position: absolute;
+top: 1.5rem;
+left: 150px;
+color: #1e4470;
+}
+.heading{
+     position: absolute;
+     top: 3rem;
+     left: 150px;
+     color: #0d99ff;
+}
+.vector{
+     padding-top: 13px;
+     padding-left: 53px;
+}
+.login{
+  position: absolute;
+  top: '';
+  right: 12rem;
+  
+}
+.signup{
+     border: 2px solid #1e4470;
+     
+     position: absolute;
+     top: '';
+     right: 8rem;
+}
