@@ -19,7 +19,7 @@ body{
      border: 2px solid #0aa2fa;
 }
 
-input{
+.otp{
      padding: 2px;
      width: 34px;
      height: 34px;
@@ -33,7 +33,7 @@ input{
      margin-left: 5px;
      text-align: center;
 }
-input:hover{
+.otp:hover{
      background-color: #ebedf0;
     
 }
@@ -68,15 +68,111 @@ color: #1e4470;
      padding-left: 53px;
 }
 .login{
+     border: 2px solid #e9effa;
+     background-color: #e9effa;
+     font-weight: 500;
+     color: #1e4470;
+     border-radius: 0.8rem;
+     width: 90px;
+     height: 25px;
+     text-align: center;
+     padding-top: 0.5rem;
+     margin-top: 25px;
   position: absolute;
   top: '';
-  right: 12rem;
+  right: 15rem;
   
 }
 .signup{
      border: 2px solid #1e4470;
-     
+     background-color: #1e4470;
+     color: #fff;
+     border-radius: 0.8rem;
+     width: 90px;
+     height: 25px;
+     text-align: center;
+     padding-top: 0.5rem;
+     margin-top: 25px;
      position: absolute;
      top: '';
      right: 8rem;
+}
+.online-marketing{
+     text-align: center;
+     padding-top: 1.5rem;
+}
+.positon{
+     position: absolute;
+     top: 12rem;
+     left: 37%;
+}
+.lighter{
+     font-weight: 300    ;
+     font-size: 3.5rem;
+}
+.optimize{
+     padding-top: 40px;
+     font-size: larger;
+}
+.search-bar{
+     border: 1px solid lightgray;
+     border-radius: 12px;
+     margin:2rem 28rem ;
+}
+.search-bar:hover{
+     border: 2px solid #0d99ff;
+}
+.search-engine{
+    padding: 5px 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.type{
+     outline: none;
+     border: 1px solid #fff;
+font-size: large;
+}
+.audit{
+     margin-left: 17.5rem;
+     width: 100px;
+     height: 50px;
+     border: 1px solid #0d99ff;
+     border-radius: 10px;
+}
+.search-icon{
+          margin-left: 2rem;
+          padding-right: 0.7rem ;
+}
+.users{
+     display: flex;
+     flex-direction: row;
+     margin: 0 33rem ;     
+     /* align-items: center; */
+     /* justify-content: center;     */
+}
+.h1{
+     padding-left:0.9rem;
+}
+.h2{
+     padding-left: 0.9rem;
+}
+.h3{
+     padding-left: 1.5rem;
+}
+.box-1{
+     padding-right: 10rem;
+}
+.box-2{
+     padding-right: 10rem;
+}
+.ameri{
+     position: absolute;
+     color: gray;
+     bottom: 12.8rem;     
+}
+.footer{
+     position: absolute;
+     left: 18rem;
+     top: 30.2rem;
 }
